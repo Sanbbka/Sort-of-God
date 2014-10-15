@@ -12,7 +12,7 @@ public class sss {
 		// TODO Auto-generated method stub
 		int mas[] = {2,42,411111,223,1,42,5211,543252,1111, 45, 23,6666 };
 		boolean b = true;
-		Random rand = new Random();
+		
 		while (b) {
 			for (int i = 0; i < mas.length; i++) {
 				for(int j = 1; j < mas.length; j++){
@@ -26,7 +26,7 @@ public class sss {
 				if(!b){
 					break;
 				}
-				int w = (int)(Math.random()*i); // целое число из [0;4];
+				int w = (int)(Math.random()*i); 
 				razd(mas, i, w);
 				
 			}
