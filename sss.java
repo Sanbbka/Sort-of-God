@@ -34,7 +34,7 @@ public class sss {
 			}
 
 		}
-		System.out.println(s);
+		System.out.println("Number of steps: "+ s);
 		for (int i = 0; i < mas.length; i++) {
 			System.out.println(mas[i]+" ");
 		}
