@@ -12,10 +12,12 @@ public class sss {
 		// TODO Auto-generated method stub
 		int mas[] = {2,42,411111,223,1,42,5211,543252,1111, 45, 23,6666 };
 		boolean b = true;
+		long s = 0; //steps
 		
 		while (b) {
 			for (int i = 0; i < mas.length; i++) {
 				for(int j = 1; j < mas.length; j++){
+					s++;
 					if( mas[j-1] <= mas[j]){
 						b = false;
 					}else{
@@ -32,7 +34,7 @@ public class sss {
 			}
 
 		}
-		
+		System.out.println(s);
 		for (int i = 0; i < mas.length; i++) {
 			System.out.println(mas[i]+" ");
 		}
